@@ -571,7 +571,7 @@ Please change the parent <Route path="${f}"> to <Route path="${f==="/"?"*":`${f}
 
   border: none;
   border-radius: 0;
-`;function eE(){const e=bl();return P("button",{css:qS,onClick:()=>e("/"),children:P(ee,{varient:"body",children:"장바구니로 돌아가기"})})}const tE=V`
+`;function eE(){const e=bl();return P("button",{css:qS,onClick:()=>e("/."),children:P(ee,{varient:"body",children:"장바구니로 돌아가기"})})}const tE=V`
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
